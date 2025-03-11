@@ -538,6 +538,8 @@ def generate_learning_path(target, learning_style, goal_type):
     Create a comprehensive learning path for {target} optimized for {learning_style['style']} learners.
     Provide 6 - 10 key learning stages with specific, actionable topics.
     Format as a simple, clear list of key learning milestones.
+    Directly give me the learning path do not give any statement liks 'This Path is cyrated for visual learners' as such.
+    """
     """
     try:
         # Generate core learning path
