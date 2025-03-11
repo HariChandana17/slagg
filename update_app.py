@@ -540,7 +540,7 @@ def generate_learning_path(target, learning_style, goal_type):
     Format as a simple, clear list of key learning milestones.
     Directly give me the learning path do not give any statement liks 'This Path is cyrated for visual learners' as such.
     """
-    """
+
     try:
         # Generate core learning path
         path_response = model.generate_content(path_prompt)
