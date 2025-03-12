@@ -167,7 +167,7 @@ def gemini_pro_chat_tab():
 
     # Initialize chat session
     if "gemini_pro_chat_session" not in st.session_state:
-        model = genai.GenerativeModel('gemini-pro')  # Initialize inside the function
+        model = genai.GenerativeModel('gemini-2.0-flash-exp')  # Initialize inside the function
         st.session_state.gemini_pro_chat_session = model.start_chat(history=[])
 
     chat_session = st.session_state.gemini_pro_chat_session
